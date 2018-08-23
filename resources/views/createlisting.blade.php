@@ -4,7 +4,7 @@
 <div class="row justify-content-center">
     <div class="col-md-8">
         <div class="card">
-            <div class="card-header">Creating List</div>
+            <div class="card-header">Creating List<a class="float-right btn btn-info btn-sm" href="/laravelweb/public/dashboard">Go Back</a></div>
             <div class="card-body">
                {!!Form::open(['action' => 'ListingsController@store', 'method' => 'POST'])!!} 
                     {{Form::bsText('name','',['placeholder' => 'Company Name'])}}
